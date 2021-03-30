@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XAo9jMspsD8xMCpvdylCb6+qPiktMd54H0D98nn9HeypJCUaU2jwQqF/HwhO5fGsE1TaKGR8oMRRD9avqy1TCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Infra\\SkyMove.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EKRO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\EKRO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
