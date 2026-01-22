@@ -1,5 +1,4 @@
 using SkyMove.Domain.Enums;
-using SkyMove.Shared.Entities;
 
 namespace SkyMove.Domain.Entities
 {
