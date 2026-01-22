@@ -1,5 +1,3 @@
-using System;
-
 namespace SkyMove.Shared.Entities
 {
     public class Entity

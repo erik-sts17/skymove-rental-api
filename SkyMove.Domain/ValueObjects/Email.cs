@@ -1,11 +1,7 @@
 namespace SkyMove.Domain.ValueObjects
 {
-    public class Email
+    public class Email(string address)
     {
-        public Email(string address)
-        {
-            Address = address;
-        }
-        public string Address { get; private set; }
+        public string Address { get; private set; } = address;
     }
 }

@@ -1,7 +1,7 @@
-namespace SkyMove.Domain.ValueObjects
+﻿namespace SkyMove.Domain.ValueObjects
 {
-    public class Document
+    public class Document(string number)
     {
-        
+        public string Number { get; set; } = number;
     }
 }

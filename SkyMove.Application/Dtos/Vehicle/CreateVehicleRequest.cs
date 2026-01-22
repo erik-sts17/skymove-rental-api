@@ -1,9 +1,8 @@
-using SkyMove.Domain.Enums;
-using SkyMove.Shared.Entities;
+﻿using SkyMove.Domain.Enums;
 
-namespace SkyMove.Domain.Entities
+namespace SkyMove.Application.Dtos.Vehicle
 {
-    public class Vehicle : Entity
+    public class CreateVehicleRequest
     {
         public string Brand { get; set; } = string.Empty;
         public string Model { get; set; } = string.Empty;
@@ -12,7 +11,5 @@ namespace SkyMove.Domain.Entities
         public decimal Kilometers { get; set; }
         public int HorsePower { get; set; }
         public Color Color { get; set; }
-        public VehicleType Type { get; set; }
-        public VehicleStatus Status { get; set; }
     }
 }

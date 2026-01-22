@@ -1,6 +1,6 @@
 namespace SkyMove.Domain.Enums
 {
-    public enum EVehicleType
+    public enum VehicleType
     {
         Popular = 1,
         Suv = 2,

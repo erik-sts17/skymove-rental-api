@@ -1,47 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Api\\SkyMove.Api.csproj": {}
+    "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Api\\SkyMove.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Api\\SkyMove.Api.csproj": {
+    "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Api\\SkyMove.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Api\\SkyMove.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Api\\SkyMove.Api.csproj",
         "projectName": "SkyMove.Api",
-        "projectPath": "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Api\\SkyMove.Api.csproj",
-        "packagesPath": "C:\\Users\\EKRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EKRO\\OneDrive - GFT Technologies SE\\Documents\\Balta.io\\SkyMoveApi\\SkyMove.Api\\obj\\",
+        "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Api\\SkyMove.Api.csproj",
+        "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EKRO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\SkyMove.Application.csproj": {
+                "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\SkyMove.Application.csproj"
+              },
+              "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj": {
+                "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj"
+              },
+              "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj": {
+                "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +88,212 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\SkyMove.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\SkyMove.Application.csproj",
+        "projectName": "SkyMove.Application",
+        "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\SkyMove.Application.csproj",
+        "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj": {
+                "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj",
+        "projectName": "SkyMove.Domain",
+        "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj",
+        "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj",
+        "projectName": "SkyMove.Infra",
+        "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj",
+        "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
