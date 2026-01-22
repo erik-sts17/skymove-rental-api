@@ -10,4 +10,14 @@
     <Folder Include="Repositories\Customer\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="linq2db" Version="6.1.0" />
+    <PackageReference Include="linq2db.MySql" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkyMove.Domain\SkyMove.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

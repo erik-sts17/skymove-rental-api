@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3tcb8/RV5M0=",
+  "dgSpecHash": "+ydMCJLfBxs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Infra\\SkyMove.Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Erik\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\Erik\\.nuget\\packages\\linq2db\\6.1.0\\linq2db.6.1.0.nupkg.sha512",
+    "C:\\Users\\Erik\\.nuget\\packages\\linq2db.mysql\\6.1.0\\linq2db.mysql.6.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

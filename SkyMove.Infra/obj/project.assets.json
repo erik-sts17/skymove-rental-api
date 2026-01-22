@@ -1,11 +1,264 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "linq2db/6.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "linq2db.MySql/6.1.0": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/LinqToDB.Templates/CopyMe.MySql.tt.txt": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/DataAnnotations.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/DataModel.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/EditableObject.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/Equatable.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/Humanizer.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.Tools.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/LinqToDB.Tools.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/LinqToDB.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/MultipleFiles.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/NotifyPropertyChanged.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/ObsoleteAttributes.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/PluralizationService.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/README.md": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/T4Model.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/any/LinqToDB.Templates/Validation.ttinclude": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "build/linq2db.MySql.props": {}
+        }
+      },
+      "SkyMove.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SkyMove.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SkyMove.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "linq2db/6.1.0": {
+      "sha512": "WZ4BWkKPKXy3pNx90+lJyg06M7qFEO9biIkbLGHUEiGAhW0S/GYoNP9D4E+WAPKHU8CDc5N/LoplODO+EpOkaw==",
+      "type": "package",
+      "path": "linq2db/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MIT-LICENSE.txt",
+        "README.md",
+        "images/icon.png",
+        "lib/net10.0/linq2db.dll",
+        "lib/net10.0/linq2db.xml",
+        "lib/net462/linq2db.dll",
+        "lib/net462/linq2db.xml",
+        "lib/net8.0/linq2db.dll",
+        "lib/net8.0/linq2db.xml",
+        "lib/net9.0/linq2db.dll",
+        "lib/net9.0/linq2db.xml",
+        "lib/netstandard2.0/linq2db.dll",
+        "lib/netstandard2.0/linq2db.xml",
+        "linq2db.6.1.0.nupkg.sha512",
+        "linq2db.nuspec"
+      ]
+    },
+    "linq2db.MySql/6.1.0": {
+      "sha512": "SdoGLHOx9ia6UyxoC7D4w5DdUpP3BzeSU4/HkZIWiKz5FtCTmyk+eMuJQqPlPLHQRc8xdE4kWkWH6LZ3jWyBIA==",
+      "type": "package",
+      "path": "linq2db.mysql/6.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MIT-LICENSE.txt",
+        "README.md",
+        "build/linq2db.MySql.props",
+        "content/LinqToDB.Templates/CopyMe.MySql.tt.txt",
+        "content/LinqToDB.Templates/DataAnnotations.ttinclude",
+        "content/LinqToDB.Templates/DataModel.ttinclude",
+        "content/LinqToDB.Templates/EditableObject.ttinclude",
+        "content/LinqToDB.Templates/Equatable.ttinclude",
+        "content/LinqToDB.Templates/Humanizer.ttinclude",
+        "content/LinqToDB.Templates/LinqToDB.MySql.Tools.ttinclude",
+        "content/LinqToDB.Templates/LinqToDB.MySql.ttinclude",
+        "content/LinqToDB.Templates/LinqToDB.Tools.ttinclude",
+        "content/LinqToDB.Templates/LinqToDB.ttinclude",
+        "content/LinqToDB.Templates/MultipleFiles.ttinclude",
+        "content/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude",
+        "content/LinqToDB.Templates/NotifyPropertyChanged.ttinclude",
+        "content/LinqToDB.Templates/ObsoleteAttributes.ttinclude",
+        "content/LinqToDB.Templates/PluralizationService.ttinclude",
+        "content/LinqToDB.Templates/README.md",
+        "content/LinqToDB.Templates/T4Model.ttinclude",
+        "content/LinqToDB.Templates/Validation.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/CopyMe.MySql.tt.txt",
+        "contentFiles/any/any/LinqToDB.Templates/DataAnnotations.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/DataModel.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/EditableObject.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/Equatable.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/Humanizer.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.Tools.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/LinqToDB.Tools.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/LinqToDB.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/MultipleFiles.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/NotifyPropertyChanged.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/ObsoleteAttributes.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/PluralizationService.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/README.md",
+        "contentFiles/any/any/LinqToDB.Templates/T4Model.ttinclude",
+        "contentFiles/any/any/LinqToDB.Templates/Validation.ttinclude",
+        "images/icon.png",
+        "linq2db.mysql.6.1.0.nupkg.sha512",
+        "linq2db.mysql.nuspec",
+        "readme.txt",
+        "tools/Humanizer.dll",
+        "tools/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/MySqlConnector.dll",
+        "tools/System.Buffers.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.Memory.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/linq2db.Scaffold.dll",
+        "tools/linq2db.Tools.dll",
+        "tools/linq2db.dll"
+      ]
+    },
+    "SkyMove.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SkyMove.Domain/SkyMove.Domain.csproj",
+      "msbuildProject": "../SkyMove.Domain/SkyMove.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Dapper >= 2.1.66",
+      "SkyMove.Domain >= 1.0.0",
+      "linq2db >= 6.1.0",
+      "linq2db.MySql >= 6.1.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Erik\\.nuget\\packages\\": {},
@@ -38,7 +291,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj": {
+              "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,6 +313,20 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          },
+          "linq2db": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
+          "linq2db.MySql": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
