@@ -19,9 +19,9 @@ namespace SkyMove.Domain.Entities
 
         }
 
-        public Name Name { get; private set; }
-        public Document Document { get; private set; } 
-        public Email Email { get; private set; } 
+        public Name Name { get; private set; } = new();
+        public Document Document { get; private set; } = new();
+        public Email Email { get; private set; } = new();
         public string PhoneNumber { get; private set; } = string.Empty;
         public DateTime Birthday { get; private set; }
         public Address? Address { get; private set; }
