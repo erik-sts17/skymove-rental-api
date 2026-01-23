@@ -1,7 +1,16 @@
 ﻿namespace SkyMove.Domain.ValueObjects
 {
-    public class Document(string number)
+    public class Document
     {
-        public string Number { get; set; } = number;
+        public Document()
+        {
+                
+        }
+        public Document(string number)
+        {
+            Number = number;
+        }
+
+        public string Number { get; set; } = string.Empty;
     }
 }

@@ -1,12 +1,16 @@
-using FluentValidation;
-using System.Reflection;
+using SkyMove.Api.Configurations;
+using SkyMove.Api.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ValidationFilter>();
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddValidatorsFromAssembly(Assembly.Load("SkyMove.Application"));
+builder.Services.ConfigureServices(builder.Configuration);
 
 var app = builder.Build();
 

@@ -2,7 +2,7 @@
 
 namespace SkyMove.Infra.Dtos
 {
-    [Table("CUSTOMER")]
+    [Table("CUSTOMERS")]
     public class CustomerDto
     {
         [Column("ID"), PrimaryKey, Identity]
@@ -24,7 +24,7 @@ namespace SkyMove.Infra.Dtos
         public DateTime Birthday { get; set; }
 
         [Column("ADDRESS_ID")]
-        public long AddressId { get; set; }
+        public Guid AddressId { get; set; }
 
         [Association(ThisKey = nameof(AddressId), OtherKey = nameof(AddressDto.Id), CanBeNull = false)]
         public AddressDto? Address { get; set; }

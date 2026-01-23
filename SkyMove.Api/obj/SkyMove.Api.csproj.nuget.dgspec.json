@@ -60,6 +60,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -67,6 +71,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "linq2db.AspNet": {
+              "target": "Package",
+              "version": "[5.4.1.9, )"
             }
           },
           "imports": [
@@ -142,6 +150,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -259,7 +271,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj": {
+                "projectPath": "C:\\Users\\Erik\\Documents\\Estudos\\Api_SkyMove\\SkyMove.Domain\\SkyMove.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -277,6 +293,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "linq2db.MySql": {
+              "target": "Package",
+              "version": "[5.4.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

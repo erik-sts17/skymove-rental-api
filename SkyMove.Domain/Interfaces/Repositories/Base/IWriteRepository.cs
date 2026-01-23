@@ -1,11 +1,12 @@
 ﻿using SkyMove.Domain.Entities;
+using System.Linq.Expressions;
 
 namespace SkyMove.Domain.Interfaces.Repositories.Base
 {
-    public interface IWriteRepository<T> where T : Entity
+    public interface IWriteRepository<TEntity, TDto> where TEntity : Entity
     {
-        Task Insert(T entity);
-        Task Update(T entity);
-        Task Delete(Guid id);
+        Task<Guid> InsertAsync(TEntity entity);
+        Task UpdateAsync(TEntity entity);
+        Task DeleteAsync(Expression<Func<TDto, bool>> where);
     }
 }
